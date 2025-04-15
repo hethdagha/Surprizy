@@ -3,7 +3,7 @@ flask-restful
 flask-cors
 pymongo
 pandas
-scikit-lear
+scikit-learn
 yellowbrick
 matplotlib
 bcrypt
