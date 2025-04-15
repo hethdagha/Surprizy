@@ -1,0 +1,13 @@
+Flask
+flask-restful
+flask-cors
+pymongo
+pandas
+scikit-lear
+yellowbrick
+matplotlib
+bcrypt
+PyJWT
+python-dotenv
+joblib
+
