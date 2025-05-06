@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-import giftLogo from "../assets/giftLogo1.png";
+import giftLogo from "../assets/SurprizyLogo.png";
 import _ from "underscore";
 
 const navKeys = ["Home"];
@@ -45,7 +45,7 @@ const NavBar = ({ className, showLogin }) => {
         <div className="flex flex-row items-baseline">
           <NavOptions navKeys={navKeys}></NavOptions>
           {_.isEmpty(localStorage.getItem("token")) ? (
-            <LoginButton buttonText={`Login/Receive Gift`}></LoginButton>
+            <LoginButton buttonText={`Login/Signup`}></LoginButton>
           ) : (
             <div className="text-light text-xl flex gap-x-8 items-center ">
               <div
