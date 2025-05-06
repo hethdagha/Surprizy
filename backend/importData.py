@@ -23,7 +23,7 @@ except Exception as e:
 
 
 try:
-    df = pd.read_csv("Assignment.csv", on_bad_lines="skip")  
+    df = pd.read_csv("surprizy.csv", on_bad_lines="skip")  
     print(f"CSV Loaded Successfully! Total Rows: {len(df)}")
 except Exception as e:
     print(f"Error Loading CSV: {e}")
